@@ -1,0 +1,55 @@
+.cart-main{
+  flex-wrap: wrap;
+  justify-content: center;
+ align-items: center;
+}
+
+
+.cake-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 300px;
+}
+
+.cake-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.cake-item h2 {
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.cake-item p {
+  color: #666;
+}
+
+.price {
+  color: #ff6f61;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+/* .cart-main{
+display: flex;
+} */
+.cards {
+display: flex;
+flex-wrap: wrap; /* Wrap items to the next line if necessary */
+justify-content: center; /* Distribute items evenly */
+gap: 20px; /* Space between each card */
+padding: 20px;
+}
+.cake-item button{
+/* padding: 12px; */
+padding: 12px 50PX 12PX 50PX;
+font-size: 1rem;
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+border: none;
+border-radius: 1rem;
+}
